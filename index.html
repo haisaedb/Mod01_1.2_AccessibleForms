@@ -41,9 +41,9 @@
   			<input name="your-number" id="your-number" type="tel" required>
 			<fieldset>
 				<legend>Preferred Contact method<span aria-hidden="true" class="required">*</span></legend>
-					<input type="radio" name="preferred-contact" id="prefer-phone" checked>
+					<input type="radio" name="preferred-contact" id="prefer-phone" checked required>
 						<label for="prefer-phone">Phone</label>
-					<input type="radio" name="preferred-contact" id="prefer-email">
+					<input type="radio" name="preferred-contact" id="prefer-email" required>
 						<label for="prefer-email">Email</label>
 			</fieldset>
 			<label for="your-state">State</label>
@@ -103,7 +103,7 @@
 				</select>
 			</div>
 				<label for="your-message">Message<span aria-hidden="true" class="required">*</span></label>
-			<textarea name="your-message" id="your-message"></textarea>
+			<textarea name="your-message" id="your-message" required></textarea>
 				<input type="submit" name="your-submit" id="your-submit" value="Submit">
 		</form>
 		</article>
